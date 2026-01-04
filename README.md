@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔶🟦 Java File Badges
 
 **Version:** 1.0.0  
@@ -59,3 +60,6 @@ Submit a pull request
 
 License
 MIT License © 2026 Akram4tl
+=======
+# java-file-bages
+>>>>>>> da5c402d23c69a8f2739cc0a374f5862752a1f96
