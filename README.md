@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#  Java File Badges
+# 🔶🟦 Java File Badges
 
 **Version:** 1.0.0  
 Adds visual badges to Java files in VS Code based on type: class, interface, enum, abstract class, record, or annotation. Quickly distinguish your Java files in the explorer at a glance!  
@@ -8,11 +7,11 @@ Adds visual badges to Java files in VS Code based on type: class, interface, enu
 
 ## Features
 
-- 🔶 **C** – Classes  
-- 🟦 **I** – Interfaces  
-- 🟪 **A** – Abstract Classes  
-- 🟩 **E** – Enums  
-- 🟨 **R** – Records  
+- 🔶 **Ⓒ** – Classes  
+- 🟦 **Ⓘ** – Interfaces  
+- 🟪 **Ⓐ** – Abstract Classes  
+- 🟩 **Ⓔ** – Enums  
+- 🟨 **Ⓡ** – Records  
 - 🟥 **@** – Annotations  
 
 > Badges automatically update based on file content, not just file names.
@@ -38,28 +37,26 @@ Users can change badge symbols in **Settings**:
 
 ```json
 {
-  "javaFileBadges.classBadge": "C",
-  "javaFileBadges.interfaceBadge": "I",
-  "javaFileBadges.enumBadge": "E",
-  "javaFileBadges.abstractBadge": "A",
-  "javaFileBadges.recordBadge": "R",
-  "javaFileBadges.annotationBadge": "@"
+  "javaFileBadges.abstractClass": "Ⓐ",
+  "javaFileBadges.class": "Ⓒ",
+  "javaFileBadges.interface": "Ⓘ",
+  "javaFileBadges.enum": "Ⓔ",
+  "javaFileBadges.annotation": "@",
+  "javaFileBadges.record": "Ⓡ"
 }
-Contributing
+```
+
+## Contributing
+
 Contributions are welcome! Check out the repository for issues, feature requests, or bug fixes:
 
 [GitHub Repository](https://github.com/Akram4tl/java-file-bages.git)
 
-Fork the repo
+1. Fork the repo
+2. Clone locally
+3. Make your improvements
+4. Submit a pull request
 
-Clone locally
+## License
 
-Make your improvements
-
-Submit a pull request
-
-License
 MIT License © 2026 Akram4tl
-=======
-# java-file-bages
->>>>>>> da5c402d23c69a8f2739cc0a374f5862752a1f96
