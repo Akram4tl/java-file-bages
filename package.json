@@ -1,0 +1,72 @@
+{
+  "name": "java-file-badges",
+  "displayName": "Java File Badges",
+  "description": "Adds visual badges for Java files based on type: class, interface, enum, abstract class, record, annotation.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:java"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Java File Badge Settings",
+      "properties": {
+        "javaFileBadges.classBadge": {
+          "type": "string",
+          "default": "Ⓒ",
+          "description": "Badge to display for Java classes"
+        },
+        "javaFileBadges.interfaceBadge": {
+          "type": "string",
+          "default": "Ⓘ",
+          "description": "Badge to display for Java interfaces"
+        },
+        "javaFileBadges.enumBadge": {
+          "type": "string",
+          "default": "Ⓔ",
+          "description": "Badge to display for Java enums"
+        },
+        "javaFileBadges.abstractBadge": {
+          "type": "string",
+          "default": "Ⓐ",
+          "description": "Badge to display for Java abstract classes"
+        },
+        "javaFileBadges.recordBadge": {
+          "type": "string",
+          "default": "Ⓡ",
+          "description": "Badge to display for Java records"
+        },
+        "javaFileBadges.annotationBadge": {
+          "type": "string",
+          "default": "@",
+          "description": "Badge to display for Java annotations"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.107.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.48.1",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
