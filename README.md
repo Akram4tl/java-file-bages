@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# 🔶🟦 Java File Badges
+#  Java File Badges
 
 **Version:** 1.0.0  
 Adds visual badges to Java files in VS Code based on type: class, interface, enum, abstract class, record, or annotation. Quickly distinguish your Java files in the explorer at a glance!  
